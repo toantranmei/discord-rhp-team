@@ -1,5 +1,5 @@
 const { Client, Collection } = require('discord.js')
-const { config } = require('dotenv')
+// const { config } = require('dotenv')
 
 const client = new Client({
 	disableEveryone: true
@@ -8,9 +8,9 @@ const client = new Client({
 client.commands = new Collection()
 client.aliases = new Collection()
 
-config({
-	path: __dirname + '/.env'
-})
+// config({
+// 	path: __dirname + '/.env'
+// })
 
 // Run the command loader
 const customArr = ['command']
