@@ -1,6 +1,6 @@
 // Mongodb
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/mongodb-discord', {
+mongoose.connect('mongodb+srv://admin:admin@db-faowb.mongodb.net/test?retryWrites=true&w=majority', {
 	useUnifiedTopology: true,
 	useCreateIndex: true,
 	useNewUrlParser: true
